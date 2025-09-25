@@ -1,0 +1,5 @@
+Django==5.2.6
+gunicorn==23.0.0
+whitenoise==6.11.0
+bcrypt==5.0.0        # only if you actually use it
+sqlparse==0.5.3      # optional, Django might need it
