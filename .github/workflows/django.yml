@@ -48,5 +48,5 @@ jobs:
         pip install awsebcli
         
         # Deploy to EB
-        eb init -p python-3.11 your-app-name --region us-east-1
-        eb deploy your-environment-name
+        eb init -p python-3.13 Anthonys_Poll_App --region us-east-1
+        eb deploy Anthonys-Poll-Env
