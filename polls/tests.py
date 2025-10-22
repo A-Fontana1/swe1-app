@@ -73,6 +73,7 @@ class QuestionIndexViewTests(TestCase):
             [question2, question1],
         )
 
+
 class QuestionDetailViewTests(TestCase):
     def test_future_question(self):
         """
